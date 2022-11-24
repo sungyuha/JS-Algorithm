@@ -6,11 +6,13 @@ function addUpTo(n) {
     return total;
 }
 
+
+
 //console.log(addUpTo(6))
 // N숫자까지 모든 숫자들을 1부터 시작해서 차례대로 합산
 // total 변수는 0으로 시작해서 루프가 끝나면 total 값이 돌아옴
 // 6+5+4+3+2+1 = 21
-// N에 따라서 늘어남, 
+// N에 따라서 늘어남
 
 let t1 = performance.now();
 addUpTo(1000000000);
